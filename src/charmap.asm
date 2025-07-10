@@ -71,5 +71,5 @@
 	charmap "@", $FF ;string terminator
 
 ; colors
-GREEN EQU $40
-RED   EQU $80
+DEF GREEN EQU $40
+DEF RED   EQU $80

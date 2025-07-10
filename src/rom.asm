@@ -1,12 +1,12 @@
-VERSION EQU 4
+DEF VERSION EQU 4
 
 INCLUDE "hardware.asm"
 INCLUDE "charmap.asm"
 INCLUDE "macros.asm"
 INCLUDE "tmacros.asm"
 
-hTestResult  EQU $ff80
-hRandomState EQU $fffe
+DEF hTestResult  EQU $ff80
+DEF hRandomState EQU $fffe
 
 SECTION "Header", ROM0[0]
 INCLUDE "header.asm"
