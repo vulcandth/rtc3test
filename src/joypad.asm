@@ -10,7 +10,7 @@ ReadJoypad:
 	ldh [c], a
 	push af
 	pop af
-	ld a, [c]
+	ldh a, [c]
 	cpl
 	swap a
 	and $f0
